@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-file-viewer" version="1.0.0"
+	xmlns="http://apache.org/cordova/ns/plugins/1.0"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<name>CordovaFileViewer</name>
+	<js-module name="fileViewer" src="www/fileViewer.js">
+		<clobbers target="cordova.plugins.fileViewer" />
+	</js-module>
+	<platform name="android">
+		<config-file parent="/*" target="res/xml/config.xml">
+			<feature name="CordovaFileViewer">
+				<param name="android-package" value="com.cordova.plugin.file.viewer.CordovaFileViewer" />
+			</feature>
+		</config-file>
+		<config-file parent="/*" target="AndroidManifest.xml"></config-file>
+		<source-file src="src/android/CordovaFileViewer.java" target-dir="src/com/cordovaFileViewer" />
+	</platform>
+</plugin>

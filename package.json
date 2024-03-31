@@ -1,0 +1,25 @@
+{
+  "name": "@srikant-kumar/cordova-plugin-file-viewer",
+  "version": "1.1.2",
+  "description": "CordovaFileViewer is a Cordova plugin enabling seamless integration of file viewing functionality within Cordova applications on Android platforms. With this plugin, developers can effortlessly open PDF and image files from URLs using the default viewer apps available on the device. It offers a straightforward interface for launching file viewers, enhancing user experience when accessing external files.",
+  "cordova": {
+    "id": "cordova-plugin-file-viewer",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srikant-kumar/cordova-plugin-file-viewer.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Srikant Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/srikant-kumar/cordova-plugin-file-viewer/issues"
+  },
+  "homepage": "https://github.com/srikant-kumar/cordova-plugin-file-viewer#readme"
+}
